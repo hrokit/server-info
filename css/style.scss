@@ -1,0 +1,73 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$bgc: #fff ;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+#content {
+  width: 1025px;
+  height: 350px;
+  margin: 0 auto;
+  background: $bgc;
+  border:1px solid #d3d3d3;
+  
+  img {
+    float: left;
+    margin: 25px 145px 5px 10px;
+    width: 125px;
+  }
+
+  h1 {
+    display: inline-block;
+
+  }
+
+  .hour {
+    float: right;
+    margin: -40px 30px 10px 10px;
+  }
+  
+  .greeting {
+    text-align: center;
+
+    .rn {
+    color: #FF99CC;
+    }
+
+  .dn {
+    color: #CC6900;
+    }
+
+  .vr {
+    color: #001C8E;
+    }
+
+  .nc {
+    color: #0D0D74;
+   }
+  }
+
+  p {
+    padding: 30px 0 0 50px;
+  }
+
+  .apps {
+    padding-left: 330px;
+
+        a {
+      text-decoration: none;
+      
+      &:hover {
+        color: #ff0000;
+      };
+    }
+
+    li {
+      list-style-type: none;
+      padding: 5px;
+    }
+  }
+}

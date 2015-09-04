@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
+/*font-family: 'Open Sans', sans-serif;*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333333; }
+
+#content {
+  width: 1025px;
+  height: 350px;
+  margin: 0 auto;
+  background: white;
+  border: 1px solid #d3d3d3; }
+  #content img {
+    float: left;
+    margin: 25px 145px 5px 10px;
+    width: 125px; }
+  #content h1 {
+    display: inline-block; }
+  #content .hour {
+    float: right;
+    margin: 70px 30px 10px 10px; }
+  #content .greeting {
+    text-align: center; }
+    #content .greeting .rn {
+      color: #FF99CC; }
+    #content .greeting .dn {
+      color: #CC6900; }
+    #content .greeting .vr {
+      color: #001C8E; }
+    #content .greeting .nc {
+      color: #0D0D74; }
+  #content p {
+    padding: 30px 0 0 50px; }
+  #content .apps {
+    padding-left: 330px; }
+    #content .apps a {
+      text-decoration: none; }
+      #content .apps a:hover {
+        color: #ff0000; }
+    #content .apps li {
+      list-style-type: none;
+      padding: 5px; }
